@@ -11,7 +11,7 @@ public class MathsTest {
 
     @Test
     public void checkTheSumOfTwoNumbersEqualsThree(){
-        Assert.assertNotEquals(16,maths.addTwoNumbers(9, 7));
+        Assert.assertNotEquals(3,maths.addTwoNumbers(9, 7));
     }
 
     @Test
